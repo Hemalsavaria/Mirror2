@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:padding="15dp"
+            android:paddingTop="3dp"
+            android:text="Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Various versions have evolved over the years, sometimes by accident."
+            android:textColor="@color/textcolor"
+            android:textSize="16sp"></TextView>
+
+        <Button
+            android:id="@+id/book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/roundwhite_lightblue_10"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Book Now"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="17sp"></Button>
+    </LinearLayout>
+
+</FrameLayout>

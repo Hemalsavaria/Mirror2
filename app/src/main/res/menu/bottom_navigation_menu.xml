@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="" />
+    <item
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:id="@+id/calender"
+        android:icon="@drawable/ic_booking_calender"
+        android:title="" />
+    <item
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_notification"
+        android:title="" />
+    <item
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_user"
+        android:title="" />
+
+</menu>

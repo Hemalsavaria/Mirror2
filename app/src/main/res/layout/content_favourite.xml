@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Favourite"
+    tools:showIn="@layout/activity_favourite">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_70sdp"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/home_thumb" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="3dp"
+                                android:text="Martano Salon"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"></TextView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="3dp">
+
+
+                                <ImageView
+
+                                    android:layout_width="@dimen/_12sdp"
+                                    android:layout_height="@dimen/_12sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="5dp"
+
+                                    android:src="@drawable/ic_rating" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="5dp"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="5.0"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="15sp"></TextView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="(150)"
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp"></TextView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="3dp">
+
+
+                                <ImageView
+
+                                    android:layout_width="@dimen/_12sdp"
+                                    android:layout_height="@dimen/_12sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="5dp"
+                                    android:src="@drawable/ic_pin_blue" />
+
+
+                                <TextView
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="9527 Olive Dr. Salt Lake City, UT 84119"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="14sp"></TextView>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageView
+
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_gravity="top"
+                            android:layout_marginLeft="5dp"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_heart_blue" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_70sdp"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/home_thumb2" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="3dp"
+                                android:text="Martano Salon"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"></TextView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="3dp">
+
+
+                                <ImageView
+
+                                    android:layout_width="@dimen/_12sdp"
+                                    android:layout_height="@dimen/_12sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="5dp"
+
+                                    android:src="@drawable/ic_rating" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="5dp"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="5.0"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="15sp"></TextView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="(150)"
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp"></TextView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="3dp">
+
+
+                                <ImageView
+
+                                    android:layout_width="@dimen/_12sdp"
+                                    android:layout_height="@dimen/_12sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="5dp"
+
+                                    android:src="@drawable/ic_pin_blue" />
+
+
+                                <TextView
+
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="9527 Olive Dr. Salt Lake City, UT 84119"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="14sp"></TextView>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageView
+
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_gravity="top"
+                            android:layout_marginLeft="5dp"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_heart_blue" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_70sdp"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/home_thumb" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="3dp"
+                                android:text="Martano Salon"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"></TextView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="3dp">
+
+
+                                <ImageView
+
+                                    android:layout_width="@dimen/_12sdp"
+                                    android:layout_height="@dimen/_12sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="5dp"
+
+                                    android:src="@drawable/ic_rating" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="5dp"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="5.0"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="15sp"></TextView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="(150)"
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp"></TextView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="3dp">
+
+
+                                <ImageView
+
+                                    android:layout_width="@dimen/_12sdp"
+                                    android:layout_height="@dimen/_12sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="5dp"
+
+                                    android:src="@drawable/ic_pin_blue" />
+
+
+                                <TextView
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="9527 Olive Dr. Salt Lake City, UT 84119"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="14sp"></TextView>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageView
+
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_gravity="top"
+                            android:layout_marginLeft="5dp"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_heart_blue" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_70sdp"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/home_thumb2" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+
+                                android:fontFamily="@font/roboto_medium"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="3dp"
+                                android:text="Martano Salon"
+                                android:textColor="@color/black"
+                                android:textSize="16sp"></TextView>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="3dp">
+
+
+                                <ImageView
+
+                                    android:layout_width="@dimen/_12sdp"
+                                    android:layout_height="@dimen/_12sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="5dp"
+
+                                    android:src="@drawable/ic_rating" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="5dp"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="5.0"
+                                    android:textColor="@color/yellow"
+                                    android:textSize="15sp"></TextView>
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="(150)"
+                                    android:textColor="@color/black"
+                                    android:textSize="15sp"></TextView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:paddingTop="5dp"
+                                android:paddingBottom="3dp">
+
+
+                                <ImageView
+
+                                    android:layout_width="@dimen/_12sdp"
+                                    android:layout_height="@dimen/_12sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginRight="5dp"
+
+                                    android:src="@drawable/ic_pin_blue" />
+
+
+                                <TextView
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="9527 Olive Dr. Salt Lake City, UT 84119"
+                                    android:textColor="@color/textcolor"
+                                    android:textSize="14sp"></TextView>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageView
+
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp"
+                            android:layout_gravity="top"
+                            android:layout_marginLeft="5dp"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_heart_blue" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

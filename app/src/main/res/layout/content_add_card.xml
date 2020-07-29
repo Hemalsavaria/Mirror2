@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Add_card"
+    tools:showIn="@layout/activity_add_card">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_card" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Edittext"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#ffffff"
+                android:hint="Card Number"
+                app:hintTextAppearance="@style/HintText"
+                app:hintTextColor="@color/hintcolor">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_margin="10dp"
+
+                style="@style/Edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#ffffff"
+                android:hint="Card Holder"
+                app:hintTextAppearance="@style/HintText"
+                app:hintTextColor="@color/hintcolor">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_marginRight="10dp"
+                    style="@style/Edittext"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:hint="Expiry Month"
+                    app:hintTextAppearance="@style/HintText"
+                    app:hintTextColor="@color/hintcolor">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_weight="1"
+                    style="@style/Edittext"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:hint="Expiry Year"
+                    app:hintTextAppearance="@style/HintText"
+                    app:hintTextColor="@color/hintcolor">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"
+
+                        android:textColor="@color/black"
+                        android:textSize="17sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/add_card_done"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/roundwhite_lightblue_10"
+                android:fontFamily="@font/roboto_regular"
+                android:text="Done"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

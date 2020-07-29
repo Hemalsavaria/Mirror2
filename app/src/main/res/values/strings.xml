@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mirror</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_contactus">Contactus</string>
+    <string name="title_activity_favourite">Favourite</string>
+    <string name="title_activity_booking_details">Booking_details</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+    <string name="title_activity_otpverify">Otpverify</string>
+    <string name="title_activity_saloon_details">Saloon_details</string>
+    <string name="title_activity_services">Services</string>
+    <string name="title_activity_booking_overview">Booking_overview</string>
+    <string name="title_activity_payment">Payment</string>
+    <string name="title_activity_add_card">Add_card</string>
+    <string name="title_activity_complete_booking">Complete_booking</string>
+</resources>

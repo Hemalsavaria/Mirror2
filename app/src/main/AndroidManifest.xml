@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e.mirror">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/main_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Complete_booking"
+            android:label="@string/title_activity_complete_booking"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Add_card"
+            android:label="@string/title_activity_add_card"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Payment"
+            android:label="@string/title_activity_payment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Booking_overview"
+            android:label="@string/title_activity_booking_overview"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Services"
+            android:label="@string/title_activity_services"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Saloon_details"
+            android:label="@string/title_activity_saloon_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Otpverify"
+            android:label="@string/title_activity_otpverify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ForgotPassword"
+            android:label="@string/title_activity_forgot_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangePassword"
+            android:label="@string/title_activity_change_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Booking_details"
+            android:label="@string/title_activity_booking_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Favourite"
+            android:label="@string/title_activity_favourite"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Contactus"
+            android:label="@string/title_activity_contactus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditProfile"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Homepage"
+            android:label="@string/title_activity_homepage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Signup"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
